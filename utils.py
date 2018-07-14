@@ -1,10 +1,6 @@
-
-
-
-from PYTORCH.utils import csv2pos_value, loader
+from PYTORCH.utils import loader
 import numpy as np
-from MATRIX.sparse import line2pos_value
-from CSV.pandas_basic import file2pandas
+from torch_utils.basic import file2pandas, line2pos_value
 
 
 def column_info(file):

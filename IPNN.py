@@ -6,7 +6,7 @@ STEPS:
 	1. UNDERTAKE EMBEDDING AT EACH FIELD
 '''
 import torch
-from PYTORCH.basic_modules import Split
+from .torch_utils.basic_modules import Split
 from torch.autograd import Variable
 
 class linear_field(torch.nn.Module):

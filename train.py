@@ -2,7 +2,7 @@ import torch
 from torch.autograd import Variable
 from utils import data_loader, field_size
 from timeit import default_timer
-from PYTORCH.utils import logging
+from torch_utils.utils import logging
 
 def train(model, logger, data_index=1458, _type='IPNN', embedding_method=None, refresh=False, minibatch=200, device_ids=[0]):
 	logger.update("data_index: {}".format(data_index), key='define')
